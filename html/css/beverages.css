@@ -1,0 +1,83 @@
+body{
+    background-color: #c1c1c1;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+*{
+    box-sizing: border-box;
+}
+#coffee{
+    border: 3px solid brown ;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    
+    box-sizing: border-box;
+}
+#tea{
+    border:3px solid brown ;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgreen;
+    font-weight: bold;
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 50x;
+    position: relative;
+    
+}
+#juice {
+    border: 3px solid brown ;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: lightblue;
+    width: 300px;
+    float: left;
+    position: relative;
+
+}
+
+
+    @media (min-width:750px)and (max-width:1105px)
+    {
+    #juice{
+       width: 700px;
+    
+    
+    }
+    .head{
+       position: relative;
+       left: 615px;
+    }
+}
+
+    h2{
+        border:3px solid brown;
+        width: 60px;
+        position: relative;
+        left: 214px;
+        top: -15px;
+        padding-top: 10px;;
+        text-align: right;
+        
+        
+    }
+
+        
+    
+
+}
