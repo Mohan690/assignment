@@ -3,8 +3,7 @@
 }
 body{
     background-color: #ffffff;
-   
-}
+   }
 header{
     text-align: center;
     font-size: 50px;
@@ -13,7 +12,6 @@ header{
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: green;
-
 }
 .row{
    box-sizing: border-box;
@@ -21,7 +19,6 @@ header{
 }
 #coffee{
    background-color: saddlebrown;
-
 }
 #tea{
     background-color: red;
@@ -36,13 +33,9 @@ header{
     text-align: center;
     position: relative;
     font-size: 30px;
-    
     box-sizing: border-box;
-     
-
-    top: -41px;
-    left: 77%;
-}
+     top: -41px;
+    left: 77%;}
 
 .col-lg-4{
      border: 2px solid black;
@@ -59,15 +52,10 @@ section{
 }
 @media (min-width:992px) and (max-width:1500px)
 {
-   .col-xl-3{
+    .col-xl-3{
        width: 30%;
        margin: 15px;
-
    }
-
-   
-    
-
 }
 @media (min-width: 768px) and (max-width:991px) {
     .row{
@@ -79,21 +67,11 @@ section{
     .col-lg-4 {width: 33.33%;}
     .col-lg-5 {width: 41.66%;}
     .col-lg-6 {width: 50%;}
-
     .col-lg-8 {width: 66.66%;}
     .col-md-8 {width: 68%;}
     .col-lg-9 {width: 75%;}
     .col-lg-11 {width: 91.66%;}
-    
-    
-
-  }
-  @media (max-width:767px){
-    
-    .col-s-12 {width: 90%;
-    
-       
     }
-   
-  
+  @media (max-width:767px){
+    .col-s-12 {width: 90%;}
 }
